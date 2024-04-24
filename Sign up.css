@@ -1,0 +1,265 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  /* Increase line length for all text elements */
+.bio,
+.country,
+.skills,
+.interest,
+.phone-number,
+.sign-up-a {
+  width: 300px; /* Adjust the width as needed */
+}
+
+  .main-container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #4b6a82, #10171c);
+    overflow: hidden;
+  }
+  .rectangle {
+    position: absolute;
+    width: 592.678px;
+    height: 719.701px;
+    top: 154.217px;
+    left: 717.664px;
+    background: #071a5e;
+    transform: rotate(0.38deg);
+    z-index: 4;
+    border-radius: 90px;
+  }
+  .rectangle-1 {
+    position: absolute;
+    width: 1196px;
+    height: 715px;
+    top: 157px;
+    left: 122px;
+    background: #071a5e;
+  }
+  .rectangle-2 {
+    position: relative;
+    width: 710px;
+    height: 711px;
+    margin: 0 0 0 0;
+    background: url(./images/picture3.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 1;
+  }
+  .rectangle-3 {
+    position: absolute;
+    width: 710px;
+    height: 711px;
+    top: 0;
+    left: 0;
+    background: url(./images/picture4.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
+  .rectangle-4 {
+    position: absolute;
+    width: 710px;
+    height: 711px;
+    top: 0;
+    left: 0;
+    background: url(./images/picture5.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 3;
+  }
+  .picture-removebg-preview {
+    position: absolute;
+    width: 78px;
+    height: 73px;
+    top: 22px;
+    left: 24px;
+    background: url(./images/picture1.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 19;
+  }
+  .flex-column-d {
+    position: absolute;
+    height: 625px;
+    top: 62px;
+    right: 215.5px;
+    left: 121px;
+    font-size: 0px;
+    z-index: 17;
+  }
+  .sign-up {
+    display: block;
+    position: relative;
+    height: 42px;
+    margin: 0 0 0 123px;
+    color: #000000;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+  }
+  
+
+  .bio {
+    border:none;
+    background-color:rgba(217, 217, 217, 1);
+    border-bottom:1px solid black;
+    display: block;
+    position: relative;
+    height: 19px;
+    margin: 48px 0 0 0; /* Adjusted margin to reduce the gap */
+    color: #484040;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 12;
+}
+
+ 
+  .country {
+    border:none;
+    background-color:rgba(217, 217, 217, 1);
+    border-bottom:1px solid black;
+    display: block;
+    position: relative;
+    height: 19px;
+    margin: 48px 0 0 2px;
+    color: #484040;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  
+  .skills {
+    border:none;
+    background-color:rgba(217, 217, 217, 1);
+    border-bottom:1px solid black;
+    display: block;
+    position: relative;
+    height: 19px;
+    margin: 48px 0 0 0;
+    color: #484040;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  
+  .interest {
+    border:none;
+    background-color:rgba(217, 217, 217, 1);
+    border-bottom:1px solid black;
+    display: block;
+    position: relative;
+    height: 19px;
+    margin: 48px 0 0 5px;
+    color: #484040;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  
+  .phone-number {
+    border:none;
+    background-color:rgba(217, 217, 217, 1);
+    border-bottom:1px solid black;
+    display: block;
+    position: relative;
+    height: 19px;
+    margin: 150px 0 0 0;
+    color: #484040;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+
+
+    
+  }
+  
+  .rectangle-9 {
+    position: absolute;
+    width: 345px;
+    height: 44px;
+    top: 564px;
+    left: 5px;
+    cursor: pointer;
+    background: #071a5e;
+    border: none;
+    z-index: 16;
+    border-radius: 8px;
+  }
+  .sign-up-a {
+  background-color: #071a5e;
+  border: none;
+  width: 300px;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 25px;
+  margin-top: 50px;
+  color: #d9d9d9;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  font-weight: bold;
+}
+
+  .sign-up-a:hover{
+    border:3px solid darkblue;
+    color:#000000;
+    background-color:white;
+  }
+  .picture-removebg-preview-b {
+    position: absolute;
+    width: 750px;
+    height: 707px;
+    top: 219px;
+    left: 633px;
+    background: url(./images/picture2.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 18;
+  }
+  
